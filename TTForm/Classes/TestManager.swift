@@ -6,3 +6,9 @@ class TestManager: NSObject {
         print("test print ! - \(text)")
     }
 }
+
+enum TTFormStyle {
+    case normal
+    case animation1WhenInput
+    case none
+}

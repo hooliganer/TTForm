@@ -1,13 +1,13 @@
 
 import Foundation
 
-class TestManager: NSObject {
+open class TestManager: NSObject {
     func testPrint(text:String) {
         print("test print ! - \(text)")
     }
 }
 
-enum TTFormStyle {
+public enum TTFormStyle {
     case normal
     case animation1WhenInput
     case none

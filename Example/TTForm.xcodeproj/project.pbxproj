@@ -14,6 +14,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		63E69A4ED27A6F538050B287 /* Pods_TTForm_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7F8187F1FE2EEE15B74803 /* Pods_TTForm_Example.framework */; };
+		6A31D4D824A0608E005DE948 /* SwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A31D4D724A0608E005DE948 /* SwiftForms.framework */; };
+		6A31D4DA24A0614A005DE948 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A31D4D924A0614A005DE948 /* SnapKit.framework */; };
 		81DEAD0963D2BC448070E8A7 /* Pods_TTForm_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F04B64BDDF7753DF6FCAFD /* Pods_TTForm_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		0A5A69CF927645CA8E56D466 /* Pods-TTForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTForm_Tests.release.xcconfig"; path = "Target Support Files/Pods-TTForm_Tests/Pods-TTForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		582F39DAA80E97398F3D5A32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		582F39DAA80E97398F3D5A32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5D7F8187F1FE2EEE15B74803 /* Pods_TTForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTForm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TTForm_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTForm_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,10 +43,12 @@
 		607FACE51AFB9204008FA782 /* TTForm_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTForm_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		622C45B9541AABA5FD2C2659 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		622C45B9541AABA5FD2C2659 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6A31D4D724A0608E005DE948 /* SwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A31D4D924A0614A005DE948 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		713CD9CA91FD2A24F6CF0303 /* Pods-TTForm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTForm_Example.debug.xcconfig"; path = "Target Support Files/Pods-TTForm_Example/Pods-TTForm_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7E57259704A190E242868743 /* Pods-TTForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTForm_Example.release.xcconfig"; path = "Target Support Files/Pods-TTForm_Example/Pods-TTForm_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93115C25D228A04D3E9D0E76 /* TTForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TTForm.podspec; path = ../TTForm.podspec; sourceTree = "<group>"; };
+		93115C25D228A04D3E9D0E76 /* TTForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTForm.podspec; path = ../TTForm.podspec; sourceTree = "<group>"; };
 		AFD07C4A2362FBF5035EEFCD /* Pods-TTForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTForm_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TTForm_Tests/Pods-TTForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1F04B64BDDF7753DF6FCAFD /* Pods_TTForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTForm_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A31D4DA24A0614A005DE948 /* SnapKit.framework in Frameworks */,
+				6A31D4D824A0608E005DE948 /* SwiftForms.framework in Frameworks */,
 				63E69A4ED27A6F538050B287 /* Pods_TTForm_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +78,8 @@
 		33ED290523FE27478687DC69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A31D4D924A0614A005DE948 /* SnapKit.framework */,
+				6A31D4D724A0608E005DE948 /* SwiftForms.framework */,
 				5D7F8187F1FE2EEE15B74803 /* Pods_TTForm_Example.framework */,
 				C1F04B64BDDF7753DF6FCAFD /* Pods_TTForm_Tests.framework */,
 			);
@@ -156,7 +164,6 @@
 				AFD07C4A2362FBF5035EEFCD /* Pods-TTForm_Tests.debug.xcconfig */,
 				0A5A69CF927645CA8E56D466 /* Pods-TTForm_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,10 +278,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TTForm_Example/Pods-TTForm_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftForms/SwiftForms.framework",
 				"${BUILT_PRODUCTS_DIR}/TTForm/TTForm.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftForms.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTForm.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,7 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - TTForm (0.1.0)
+  - SnapKit (4.2.0)
+  - SwiftForms (1.8.2)
+  - TTForm (0.1.0):
+    - SnapKit
+    - SwiftForms
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -13,6 +17,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - SnapKit
+    - SwiftForms
 
 EXTERNAL SOURCES:
   TTForm:
@@ -20,8 +26,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TTForm: b9bc9134059434c35c3ae514d2ef88c1e60c0859
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftForms: f0d4d30401e21de87d9b7b63a4691a3d4e22bab5
+  TTForm: 7afac3a3f1399340d48f428e0c7df8016ec6f355
 
-PODFILE CHECKSUM: 54684d5b6a83f28d95f7a3a3eed55082eb356b77
+PODFILE CHECKSUM: be5473e038a1f519564d08117d5036bb6750afe1
 
 COCOAPODS: 1.9.1
